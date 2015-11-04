@@ -22,6 +22,12 @@ namespace PSRAdmin.Models
         [Required]
         public int Salary;
 
+<<<<<<< HEAD
+        public int UserRoleID;
+
+        public string AccountID;
+
+=======
         [Required]
         public int UserRoleID;
 
@@ -29,14 +35,7 @@ namespace PSRAdmin.Models
         public string AccountID;
 
         [Required]
+>>>>>>> development
         public string HomeAddress;
-    }
-
-    public class TestClass
-    {
-
-        public string TestField;
-
-        public int id;
     }
 }
