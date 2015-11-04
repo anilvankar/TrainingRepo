@@ -1,0 +1,16 @@
+﻿@using PSRAdmin.Authentication.Models
+ @model PSRAdmin.Authentication.Models.UserDetails
+
+
+@Html.ValidationMessage("LoginFailed", new { style = "Color:red;" })
+@using (Html.BeginForm("DoLogin", "Authentication", FormMethod.Post))
+{
+    @Html.LabelFor(model => model.Username)
+    @Html.TextBoxFor(model => model.Username)
+    <br />
+    @Html.LabelFor(model => model.Password)
+    @Html.TextBoxFor(model => model.Password)
+    <br />
+    <input type="submit" value="Login" name="=btnSubmit" />
+
+}
