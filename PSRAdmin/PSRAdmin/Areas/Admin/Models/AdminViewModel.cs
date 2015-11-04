@@ -10,7 +10,7 @@ namespace PSRAdmin.Areas.Admin.Models
         [Required(ErrorMessage="Name is required.")]               
         public string EmployeeName { get; set; }
 
-       
+       [StringLength(50)];
         public string EmployeeAddress { get; set; }
       
     }
