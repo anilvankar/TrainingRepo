@@ -25,5 +25,7 @@ namespace PSRAdmin.Models
         public int UserRoleID;
 
         public string AccountID;
+
+        public string HomeAddress;
     }
 }
