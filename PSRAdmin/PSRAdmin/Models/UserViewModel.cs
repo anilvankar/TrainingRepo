@@ -8,5 +8,9 @@ namespace PSRAdmin.Models
     public class UserViewModel
     {
         public string UserName;
+
+        public string EmailAddress;
+
+        public string Address;
     }
 }
