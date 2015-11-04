@@ -23,5 +23,7 @@ namespace PSRAdmin.Models
         public int Salary;
 
         public int UserRoleID;
+
+        public string AccountID;
     }
 }
