@@ -33,7 +33,8 @@ namespace PSRAdmin.Models
     }
 
     public class TestClass
-    { 
-    
+    {
+
+        public string TestField;
     }
 }
