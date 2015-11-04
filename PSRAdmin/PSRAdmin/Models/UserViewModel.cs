@@ -36,5 +36,7 @@ namespace PSRAdmin.Models
     {
 
         public string TestField;
+
+        public int id;
     }
 }
