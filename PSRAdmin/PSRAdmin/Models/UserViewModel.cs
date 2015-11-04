@@ -28,6 +28,7 @@ namespace PSRAdmin.Models
         [Required]
         public string AccountID;
 
+        [Required]
         public string HomeAddress;
     }
 }
